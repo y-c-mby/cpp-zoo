@@ -9,7 +9,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae7ecf42-0e75-40e1-947c-9742e2ace6bd" name="Default Changelist" comment="" />
+    <list default="true" id="ae7ecf42-0e75-40e1-947c-9742e2ace6bd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Animal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Animal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bird.h" beforeDir="false" afterPath="$PROJECT_DIR$/Bird.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fish.h" beforeDir="false" afterPath="$PROJECT_DIR$/Fish.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lion.h" beforeDir="false" afterPath="$PROJECT_DIR$/Lion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mammal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Mammal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shark.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Shark.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shark.h" beforeDir="false" afterPath="$PROJECT_DIR$/Shark.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnowyOwl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SnowyOwl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnowyOwl.h" beforeDir="false" afterPath="$PROJECT_DIR$/SnowyOwl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +33,12 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1cRKopuAfD1HVn3Ehz6ciEERnJJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
@@ -57,11 +75,28 @@
       <workItem from="1590486145380" duration="1739000" />
       <workItem from="1590490811189" duration="2323000" />
       <workItem from="1590493903734" duration="5970000" />
-      <workItem from="1590502841080" duration="4451000" />
+      <workItem from="1590502841080" duration="4713000" />
+      <workItem from="1590508888348" duration="2694000" />
+      <workItem from="1590518875149" duration="627000" />
+      <workItem from="1590519805466" duration="2866000" />
+      <workItem from="1590523023874" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

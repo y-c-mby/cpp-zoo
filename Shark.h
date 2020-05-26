@@ -10,10 +10,10 @@ public:
     /*virtual*/ unsigned int GetSpeed() const ;
 
 protected:
-    void print() const;
+    void print(ostream & out) const;
 
 private:
-    static const m_lowest_depth = 30;
+    static const unsigned int m_lowest_depth = 30;
     static const unsigned short int m_life_expectancy = 20;
     static const unsigned int m_speed = 100;
     static std::vector <Type> m_type_food;
@@ -24,8 +24,8 @@ inline Shark::Shark(std::string name): Fish(name){}
 inline unsigned int Shark::GetLowestDepth() const {
     return m_lowest_depth;
 }
-inline void Shark::print() const {
-    Fish::print()
+inline void Shark::print(ostream & out) const {
+    Fish::print(out);
 }
 inline unsigned short int Shark:: GetLifeExpectancy() const {
     return m_life_expectancy;

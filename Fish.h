@@ -1,3 +1,5 @@
+#ifndef __FISH_H__
+#define __FISH_H__
 #include "Animal.h"
 class Fish:public Animal{
 public:
@@ -10,11 +12,12 @@ public:
     virtual std::vector <Type> GetTypeFood() const =0;
     virtual unsigned int GetSpeed() const =0 ;
 protected:
-    virtual void print() const ;
+    virtual void print(ostream & out) const ;
 };
 inline Fish::Fish(std::string name):Animal(name){}
-inline void Animal::print() const {
-    Animal::print();
-    std::cout << "LowestDepth: " << GetLowestDepth() << std::endl;
+inline void Fish::print(ostream & out) const {
+    Animal::print(out);
+    out << "LowestDepth: " << GetLowestDepth() << std::endl;
 }
 
+#endif

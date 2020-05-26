@@ -11,7 +11,7 @@ public:
     /*virtual*/ std::vector <Type> GetTypeFood() const ;
     /*virtual*/ unsigned int GetSpeed() const ;
 protected:
-	void print();
+	void print(ostream & out);
 
 private:
     static const int m_pregnancy_duration = 12;
@@ -23,9 +23,9 @@ private:
     static std::string m_specy ;
 };
 inline Lion::Lion(std::string name):Mammal(name){}
-inline void Lion::print()
+inline void Lion::print(ostream & out)
 {
-	Mammal::print();
+	Mammal::print(out);
 }
 inline int Lion::GetPregnancyDuration() const {
     return m_pregnancy_duration;

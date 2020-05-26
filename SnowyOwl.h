@@ -2,8 +2,8 @@
 class SnowyOwl:public Birds{
 public:
     SnowyOwl(std::string name);
-    /*virtual*/ unsigned float GetWingSpan() const ;
-    /*virtual*/ unsigned float GetreacedHighet() const ;
+    /*virtual*/  unsigned int GetWingSpan() const ;
+    /*virtual*/  unsigned int GetreacedHighet() const ;
     /*virtual*/ std::string GetSpecies() const ;
     /*virtual*/ unsigned short int GetLifeExpectancy() const;
     /*virtual*/ std::vector <Continents> GetContinent() const;
@@ -11,11 +11,11 @@ public:
     /*virtual*/ unsigned int GetSpeed() const ;
 
 protected:
-    void print() const ;
+    void print(ostream & out) const ;
 
 private:
-    static const unsigned float m_wing_span = 25;
-    static const unsigned float m_reached_hieght = 130;
+    static const unsigned int m_wing_span = 25.;
+    static const  unsigned int m_reached_hieght = 130;
     static const unsigned short int m_life_expectancy = 20;
     static const unsigned int m_speed = 100;
     static std::vector <Type> m_type_food;
@@ -25,13 +25,13 @@ private:
 inline SnowyOwl::SnowyOwl(std::string name) :Birds(name){
 
 }
-inline void SnowyOwl::print() const {
-    Birds::print();
+inline void SnowyOwl::print(ostream & out) const {
+    Birds::print(out);
 }
-inline unsigned float SnowyOwl::GetWingSpan() const {
+inline  unsigned int SnowyOwl::GetWingSpan() const {
     return m_wing_span;
 }
-inline unsigned float SnowyOwl::GetreacedHighet() const {
+inline  unsigned int SnowyOwl::GetreacedHighet() const {
     return m_reached_hieght;
 }
 inline unsigned short int SnowyOwl:: GetLifeExpectancy() const {

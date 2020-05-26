@@ -1,3 +1,5 @@
+#ifndef __MAMMAL_H__
+#define __MAMMAL_H__
 #include "Animal.h"
 class Mammal:public Animal{
 public:
@@ -11,17 +13,17 @@ public:
     virtual std::vector <Type> GetTypeFood() const =0;
     virtual unsigned int GetSpeed() const =0 ;
 protected:
-    virtual void print() const ;
+    virtual void print(ostream & out) const ;
 private:
 };
 inline Mammal::Mammal(std::string name):Animal(name){}
-inline void Mammal::print() const {
-    Animal::print();
-    std::cout << "PregnancyDuration: " << GetPregnancyDuration() << std::endl;
-    std::cout << "numOfChild: " << GetnumOfChild() << std::endl;
+inline void Mammal::print(ostream & out) const {
+    Animal::print(out);
+    out << "PregnancyDuration: " << GetPregnancyDuration() << std::endl;
+    out << "numOfChild: " << GetnumOfChild() << std::endl;
 }
 inline Mammal::~Mammal() {
 
 }
 
-
+#endif
