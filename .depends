@@ -1,9 +1,0 @@
-Fish.o: Fish.cpp Fish.h Animal.h
-Bird.o: Bird.cpp Bird.h Animal.h
-Lion.o: Lion.cpp Lion.h Mammal.h Animal.h
-SnowyOwl.o: SnowyOwl.cpp SnowyOwl.h Bird.h Animal.h
-Mammal.o: Mammal.cpp Mammal.h Animal.h
-main.o: main.cpp Lion.h Mammal.h Animal.h Shark.h Fish.h SnowyOwl.h \
- Bird.h
-Animal.o: Animal.cpp Animal.h
-Shark.o: Shark.cpp Shark.h Fish.h Animal.h
