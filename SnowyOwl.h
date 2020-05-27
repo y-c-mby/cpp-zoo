@@ -14,7 +14,7 @@ protected:
     void print(ostream & out) const ;
 
 private:
-    static const unsigned int m_wing_span = 25.;
+    static const unsigned int m_wing_span = 25;
     static const  unsigned int m_reached_hieght = 130;
     static const unsigned short int m_life_expectancy = 20;
     static const unsigned int m_speed = 100;

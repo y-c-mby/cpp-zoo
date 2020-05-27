@@ -12,16 +12,11 @@
     <list default="true" id="ae7ecf42-0e75-40e1-947c-9742e2ace6bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Animal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Animal.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Animal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bird.h" beforeDir="false" afterPath="$PROJECT_DIR$/Bird.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fish.h" beforeDir="false" afterPath="$PROJECT_DIR$/Fish.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lion.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lion.h" beforeDir="false" afterPath="$PROJECT_DIR$/Lion.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mammal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Mammal.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shark.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Shark.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shark.h" beforeDir="false" afterPath="$PROJECT_DIR$/Shark.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SnowyOwl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SnowyOwl.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SnowyOwl.h" beforeDir="false" afterPath="$PROJECT_DIR$/SnowyOwl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,6 +75,7 @@
       <workItem from="1590518875149" duration="627000" />
       <workItem from="1590519805466" duration="2866000" />
       <workItem from="1590523023874" duration="5000" />
+      <workItem from="1590563615611" duration="5295000" />
     </task>
     <servers />
   </component>
