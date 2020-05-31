@@ -1,7 +1,8 @@
 #ifndef __FISH_H__
 #define __FISH_H__
 #include "Animal.h"
-class Fish:public Animal{
+#include "ifish.h"
+class Fish:public  Animal,public IFish{
 public:
 	Fish(std::string name);
 	virtual ~Fish(){}

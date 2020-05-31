@@ -1,7 +1,8 @@
 #ifndef __MAMMAL_H__
 #define __MAMMAL_H__
 #include "Animal.h"
-class Mammal:public Animal{
+#include "imammal.h"
+class Mammal: public Animal,public IMammal{
 public:
 	Mammal(std::string name);
 	virtual ~Mammal();
